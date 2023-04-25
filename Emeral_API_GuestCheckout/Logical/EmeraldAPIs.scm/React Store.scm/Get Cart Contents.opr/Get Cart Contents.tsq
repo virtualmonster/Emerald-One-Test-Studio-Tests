@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1617266275519"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78db"
-    type="test_resource" updatedTimestamp="1652431640798"
-    updatedUser="unknown" version="1.1">
+    references="6b10b499:1788e004ea0:-7a7b" type="test_resource"
+    updatedTimestamp="1682408221394" updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
         <testTree>
             <editableResource id="d67d2c9:1788c912586:-78d9"
+                references="6b10b499:1788e004ea0:-7a7b"
                 selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly."
                 type="send_request_action" version="1.1">
                 <loggingConfiguration debug="false"
@@ -132,6 +133,7 @@
                 </resourceConfig>
             </editableResource>
             <editableResource id="d67d2c9:1788c912586:-78d5"
+                references="6b10b499:1788e004ea0:-7a7b"
                 selfDescribing="Receive and validate a response to the request you have sent."
                 type="receive_reply_action" version="1.1">
                 <loggingConfiguration debug="false"
@@ -351,12 +353,12 @@
                             <fieldExpander
                                 fieldExpanderID="JSON.fieldexpander"
                                 fieldSchema="JSON" fieldSchemaRoot="Object"/>
-                            <contentTree>{"orderTypeCode":"ORD","totalShippingCharge":"0.00000","resourceId":"https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/cart/@self?sortOrderItemBy=orderItemID&amp;langId=-1","orderId":"32137647","lastUpdateDate":"2021-04-01T09:45:18.622Z","channel":{"channelIdentifer":{"channelName":"Telesales","uniqueID":"-4"},"userData":null,"description":{"language":"-1","value":"Used when operations performed by a telesales representative."}},"orderStatus":"P","x_isPurchaseOrderNumberRequired":"false","totalShippingChargeCurrency":"USD","grandTotalCurrency":"USD","buyerId":"34","recordSetCount":"1","x_isPersonalAddressesAllowedForShipping":"true","storeNameIdentifier":"Emerald","totalProductPriceCurrency":"USD","totalProductPrice":"749.99000","locked":"false","recordSetComplete":"true","totalAdjustmentCurrency":"USD","totalSalesTaxCurrency":"USD","totalSalesTax":"0.00000","grandTotal":"724.99000","orderItem":[{"unitUom":"C62","shippingChargeCurrency":"USD","lastUpdateDate":"2021-04-01T09:45:18.629Z","expectedShipDate":"2021-04-01T09:45:18.844Z","description":"Mail","language":"-1","salesTax":"0.00000","correlationGroup":"10029","shippingTax":"0.00000","orderItemStatus":"P","offerID":"4000000000000008039","currency":"USD","shippingCharge":"0.00000","orderItemPrice":"749.99000","shipModeLanguage":"-1","createDate":"2021-04-01T09:45:18.620Z","unitPrice":"749.99000","salesTaxCurrency":"USD","quantity":"1.0","shipModeCode":"Mail","productId":"14020","shipModeDescription":"Mail","orderItemId":"10029","fulfillmentCenterId":"13001","fulfillmentCenterName":"Emerald","xitem_memberId":"19","shipModeId":"14001","isExpedited":"false","orderItemFulfillmentStatus":"Unreleased","shippingTaxCurrency":"USD","carrier":"Mail","UOM":"C62","freeGift":"false","unitQuantity":"1.0","contractId":"-11005","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"partNumber":"LR-FNTR-0001-0002","totalAdjustment":{"currency":"USD","value":"-25.00000"},"orderItemInventoryStatus":"Available"}],"storeUniqueID":"11","recordSetStartNumber":"0","resourceName":"cart","recordSetTotal":"1","shipAsComplete":"true","x_trackingIds":"","totalShippingTax":"0.00000","totalShippingTaxCurrency":"USD","prepareIndicator":"false","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","xadju_calUsageId":"-1","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"totalAdjustment":"-25.00000"}<defaultActions>
+                            <contentTree>{"orderTypeCode":"ORD","totalShippingCharge":"0.00000","resourceId":"https://commerce-preview.sbx0049.play.products.pnpsofy.com:5443/wcs/resources/store/11/cart/@self?sortOrderItemBy=orderItemID&amp;langId=-1","orderId":"32137647","lastUpdateDate":"2021-04-01T09:45:18.622Z","channel":{"channelIdentifer":{"channelName":"Telesales","uniqueID":"-4"},"userData":null,"description":{"language":"-1","value":"Used when operations performed by a telesales representative."}},"orderStatus":"P","x_isPurchaseOrderNumberRequired":"false","totalShippingChargeCurrency":"USD","grandTotalCurrency":"USD","buyerId":"34","recordSetCount":"1","x_isPersonalAddressesAllowedForShipping":"true","storeNameIdentifier":"Emerald","totalProductPriceCurrency":"USD","totalProductPrice":"749.99000","locked":"false","recordSetComplete":"true","totalAdjustmentCurrency":"USD","totalSalesTaxCurrency":"USD","totalSalesTax":"0.00000","grandTotal":"724.99000","orderItem":[{"unitUom":"C62","shippingChargeCurrency":"USD","lastUpdateDate":"2021-04-01T09:45:18.629Z","expectedShipDate":"2021-04-01T09:45:18.844Z","description":"Mail","language":"-1","salesTax":"0.00000","xitem_isPersonalAddressesAllowedForShipping":"true","correlationGroup":"10029","shippingTax":"0.00000","orderItemStatus":"P","offerID":"4000000000000008039","currency":"USD","shippingCharge":"0.00000","orderItemPrice":"749.99000","shipModeLanguage":"-1","createDate":"2021-04-01T09:45:18.620Z","unitPrice":"749.99000","salesTaxCurrency":"USD","quantity":"1.0","shipModeCode":"Mail","productId":"14020","shipModeDescription":"Mail","orderItemId":"10029","fulfillmentCenterId":"13001","fulfillmentCenterName":"Emerald","xitem_memberId":"19","shipModeId":"14001","isExpedited":"false","orderItemFulfillmentStatus":"Unreleased","shippingTaxCurrency":"USD","carrier":"Mail","UOM":"C62","fulfillmentCenterOwnerId":"-11000","freeGift":"false","unitQuantity":"1.0","contractId":"-11005","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"partNumber":"LR-FNTR-0001-0002","totalAdjustment":{"currency":"USD","value":"-25.00000"},"orderItemInventoryStatus":"Available"}],"storeUniqueID":"11","recordSetStartNumber":"0","resourceName":"cart","recordSetTotal":"1","shipAsComplete":"true","x_trackingIds":"","totalShippingTax":"0.00000","totalShippingTaxCurrency":"USD","prepareIndicator":"false","adjustment":[{"amount":"-25.00000","code":"Save $25 on all orders over $200 USD","displayLevel":"Order","usage":"Discount","xadju_calUsageId":"-1","descriptionLanguage":"-1","description":"Save $25 on all orders over $200 USD","language":"-1","currency":"USD"}],"totalAdjustment":"-25.00000"}<defaultActions>
                                     <defaultMessageActions>
                                     <fieldActionGroup>
                                     <fieldAction type="1">
                                     <fieldAction
-                                    anyOrder="false"
+                                    anyOrder="true"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
@@ -385,6 +387,16 @@
                                     </defaultScalarActions>
                                 </defaultActions>
                                 <updates>
+                                    <setAction index="0"
+                                    path="/text/Object"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object">
                                     <_c assocdefid="Object"/>
                                     </updateField>
@@ -420,11 +432,41 @@
                                     exp="2021-04-01T09:45:18.622Z" type="0"/>
                                     </fieldAction>
                                     </setAction>
+                                    <setAction index="5"
+                                    path="/text/Object/channel"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="0"
+                                    path="/text/Object/channel/channelIdentifer"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="1"
                                     path="/text/Object/channel/userData"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction type="1">
                                     <fieldAction type="8"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="2"
+                                    path="/text/Object/channel/description"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="10"
@@ -442,18 +484,19 @@
                                     <dataAction type="Copy"/>
                                     </fieldAction>
                                     </setAction>
-                                    <updateField path="/text/Object/orderItem">
-                                    <_c assocdefid="Array"/>
-                                    </updateField>
-                                    <setAction index="0"
-                                    path="/text/Object/orderItem/0"
+                                    <setAction index="22"
+                                    path="/text/Object/orderItem"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction anyOrder="true"
+                                    <fieldAction
+                                    anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </setAction>
+                                    <updateField path="/text/Object/orderItem">
+                                    <_c assocdefid="Array"/>
+                                    </updateField>
                                     <updateField path="/text/Object/orderItem/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -473,7 +516,15 @@
                                     exp="2021-04-01T09:45:18.844Z" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="7"
+                                    <setAction index="7" path="/text/Object/orderItem/0/xitem_isPersonalAddressesAllowedForShipping">
+                                    <fieldAction type="0">
+                                    <fieldAction exp="true" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderItem/0/xitem_isPersonalAddressesAllowedForShipping">
+                                    <_c value="true"/>
+                                    </updateField>
+                                    <setAction index="8"
                                     path="/text/Object/orderItem/0/correlationGroup"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -481,7 +532,7 @@
                                     exp="10029" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="10"
+                                    <setAction index="11"
                                     path="/text/Object/orderItem/0/offerID"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -489,7 +540,7 @@
                                     exp="4000000000000008039" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="15"
+                                    <setAction index="16"
                                     path="/text/Object/orderItem/0/createDate"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -497,7 +548,7 @@
                                     exp="2021-04-01T09:45:18.620Z" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="22"
+                                    <setAction index="23"
                                     path="/text/Object/orderItem/0/orderItemId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -505,7 +556,7 @@
                                     exp="10029" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="25"
+                                    <setAction index="26"
                                     path="/text/Object/orderItem/0/xitem_memberId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -513,7 +564,7 @@
                                     exp="19" type="0"/>
                                     </fieldAction>
                                     </setAction>
-                                    <setAction index="25" path="/text/Object/orderItem/0/xitem_memberId">
+                                    <setAction index="26" path="/text/Object/orderItem/0/xitem_memberId">
                                     <fieldAction type="0">
                                     <fieldAction exp="19" type="0"/>
                                     </fieldAction>
@@ -521,7 +572,7 @@
                                     <updateField path="/text/Object/orderItem/0/xitem_memberId">
                                     <_c value="19"/>
                                     </updateField>
-                                    <setAction index="26"
+                                    <setAction index="27"
                                     path="/text/Object/orderItem/0/shipModeId"
                                     replaceActionType="0" replaceOuterType="1">
                                     <fieldAction enabled="false" type="1">
@@ -529,15 +580,73 @@
                                     exp="14001" type="0"/>
                                     </fieldAction>
                                     </setAction>
+                                    <setAction index="33" path="/text/Object/orderItem/0/fulfillmentCenterOwnerId">
+                                    <fieldAction type="0">
+                                    <fieldAction exp="-11000" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <updateField path="/text/Object/orderItem/0/fulfillmentCenterOwnerId">
+                                    <_c value="-11000"/>
+                                    </updateField>
+                                    <setAction index="37"
+                                    path="/text/Object/orderItem/0/adjustment"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/orderItem/0/adjustment">
                                     <_c assocdefid="Array"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/orderItem/0/adjustment/0"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/orderItem/0/adjustment/0">
                                     <_c name="0"/>
                                     </updateField>
+                                    <setAction index="39"
+                                    path="/text/Object/orderItem/0/totalAdjustment"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="32"
+                                    path="/text/Object/adjustment"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/adjustment">
                                     <_c assocdefid="Array"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/adjustment/0"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction
+                                    anyOrder="false"
+                                    ignoreExtra="false"
+                                    ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/adjustment/0">
                                     <_c name="0"/>
                                     </updateField>
