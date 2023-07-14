@@ -2,7 +2,7 @@
 <editableResource createdTimestamp="1617266275612"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78a2"
     references="d67d2c9:1788c912586:-7ec5:1390432723:408339756"
-    type="test_resource" updatedTimestamp="1684503367219"
+    type="test_resource" updatedTimestamp="1689358734487"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -433,10 +433,9 @@
                                     path="/text/Object/contents"
                                     replaceActionType="100" replaceOuterType="1">
                                     <fieldAction type="1">
-                                    <fieldAction
-                                    anyOrder="false"
-                                    ignoreExtra="false"
-                                    ignoreNonPresent="false" type="100"/>
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
                                     </fieldAction>
                                     </setAction>
                                     <updateField path="/text/Object/contents">
@@ -751,6 +750,15 @@
                                     <updateField path="/text/Object/contents/0/attributes/0/values/0/image1path/2">
                                     <_c name="2"/>
                                     </updateField>
+                                    <setAction index="1"
+                                    path="/text/Object/contents/1"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/1">
                                     <_c name="1"/>
                                     </updateField>
@@ -783,9 +791,11 @@
                                     <updateField path="/text/Object/contents/1/thumbnail">
                                     <_c value="/hclstore/EmeraldCAS/images/catalog/livingroom/furniture/chair2_a1_350.jpg"/>
                                     </updateField>
-                                    <setAction index="5" path="/text/Object/contents/1/sellerId">
-                                    <fieldAction type="0">
-                                    <fieldAction
+                                    <setAction index="5"
+                                    path="/text/Object/contents/1/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
                                     exp="7000000000000003501" type="0"/>
                                     </fieldAction>
                                     </setAction>
@@ -1210,6 +1220,15 @@
                                     <updateField path="/text/Object/contents/1/id">
                                     <_c value="14022"/>
                                     </updateField>
+                                    <setAction index="2"
+                                    path="/text/Object/contents/2"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/2">
                                     <_c name="2"/>
                                     </updateField>
@@ -1230,6 +1249,14 @@
                                     <updateField path="/text/Object/contents/2/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?categoryId=10502&amp;contractId=-11005&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/2/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="5" path="/text/Object/contents/2/sellerId">
                                     <fieldAction type="0">
                                     <fieldAction
@@ -1605,6 +1632,15 @@
                                     <updateField path="/text/Object/contents/2/attributes/0/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="3"
+                                    path="/text/Object/contents/3"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/3">
                                     <_c name="3"/>
                                     </updateField>
@@ -1625,6 +1661,14 @@
                                     <updateField path="/text/Object/contents/3/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?categoryId=10502&amp;contractId=-11005&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/3/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="5" path="/text/Object/contents/3/sellerId">
                                     <fieldAction type="0">
                                     <fieldAction
@@ -1977,6 +2021,15 @@
                                     <updateField path="/text/Object/contents/3/attributes/0/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="4"
+                                    path="/text/Object/contents/4"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/4">
                                     <_c name="4"/>
                                     </updateField>
@@ -1997,6 +2050,14 @@
                                     <updateField path="/text/Object/contents/4/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?categoryId=10502&amp;contractId=-11005&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/4/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="5" path="/text/Object/contents/4/sellerId">
                                     <fieldAction type="0">
                                     <fieldAction
@@ -2373,6 +2434,15 @@
                                     <updateField path="/text/Object/contents/4/attributes/0/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/5"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/5">
                                     <_c name="5"/>
                                     </updateField>
@@ -2393,6 +2463,14 @@
                                     <updateField path="/text/Object/contents/5/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?categoryId=10502&amp;contractId=-11005&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/5/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="5" path="/text/Object/contents/5/sellerId">
                                     <fieldAction type="0">
                                     <fieldAction
@@ -2745,6 +2823,15 @@
                                     <updateField path="/text/Object/contents/5/attributes/0/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="6"
+                                    path="/text/Object/contents/6"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/6">
                                     <_c name="6"/>
                                     </updateField>
@@ -2765,6 +2852,14 @@
                                     <updateField path="/text/Object/contents/6/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?categoryId=10502&amp;contractId=-11005&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/6/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="5" path="/text/Object/contents/6/sellerId">
                                     <fieldAction type="0">
                                     <fieldAction
@@ -3083,6 +3178,15 @@
                                     <updateField path="/text/Object/contents/6/attributes/0/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="7"
+                                    path="/text/Object/contents/7"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/7">
                                     <_c name="7"/>
                                     </updateField>
@@ -3103,6 +3207,14 @@
                                     <updateField path="/text/Object/contents/7/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?categoryId=10502&amp;contractId=-11005&amp;currency=USD&amp;limit=12&amp;offset=0&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/7/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="5" path="/text/Object/contents/7/sellerId">
                                     <fieldAction type="0">
                                     <fieldAction
@@ -3421,6 +3533,15 @@
                                     <updateField path="/text/Object/contents/7/attributes/0/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="8"
+                                    path="/text/Object/contents/8"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/8">
                                     <_c name="8"/>
                                     </updateField>
@@ -3449,6 +3570,14 @@
                                     anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/8/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="5" path="/text/Object/contents/8/sellerId">
@@ -4003,6 +4132,15 @@
                                     <updateField path="/text/Object/contents/8/attributes/1/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="9"
+                                    path="/text/Object/contents/9"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/9">
                                     <_c name="9"/>
                                     </updateField>
@@ -4031,6 +4169,14 @@
                                     anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/9/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="5" path="/text/Object/contents/9/sellerId">
@@ -4609,6 +4755,15 @@
                                     <updateField path="/text/Object/contents/9/attributes/1/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="10"
+                                    path="/text/Object/contents/10"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/10">
                                     <_c name="10"/>
                                     </updateField>
@@ -4637,6 +4792,14 @@
                                     anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/10/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="5" path="/text/Object/contents/10/sellerId">
@@ -5146,6 +5309,15 @@
                                     <updateField path="/text/Object/contents/10/attributes/1/attribute.store">
                                     <_c value="12001"/>
                                     </updateField>
+                                    <setAction index="11"
+                                    path="/text/Object/contents/11"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/11">
                                     <_c name="11"/>
                                     </updateField>
@@ -5174,6 +5346,14 @@
                                     anyOrder="false"
                                     ignoreExtra="false"
                                     ignoreNonPresent="false" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/11/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     <setAction index="5" path="/text/Object/contents/11/sellerId">

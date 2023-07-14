@@ -2,7 +2,7 @@
 <editableResource createdTimestamp="1617266275506"
     createdUser="STUART.WALKER" id="d67d2c9:1788c912586:-78e6"
     references="d67d2c9:1788c912586:-7ec5:1390432723:408339756"
-    type="test_resource" updatedTimestamp="1684503513480"
+    type="test_resource" updatedTimestamp="1689358788639"
     updatedUser="STUART.WALKER" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
@@ -383,6 +383,15 @@
                                     <updateField path="/text/Object/contents">
                                     <_c assocdefid="Array"/>
                                     </updateField>
+                                    <setAction index="0"
+                                    path="/text/Object/contents/0"
+                                    replaceActionType="100" replaceOuterType="1">
+                                    <fieldAction type="1">
+                                    <fieldAction anyOrder="true"
+                                    ignoreExtra="true"
+                                    ignoreNonPresent="true" type="100"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <updateField path="/text/Object/contents/0">
                                     <_c name="0"/>
                                     </updateField>
@@ -403,6 +412,14 @@
                                     <updateField path="/text/Object/contents/0/resourceId">
                                     <_c value="https://commerce-preview.sbx0070.play.products.pnpsofy.com/search/resources/api/v2/products?id=14020&amp;storeId=11&amp;langId=-1"/>
                                     </updateField>
+                                    <setAction index="5"
+                                    path="/text/Object/contents/0/sellerId"
+                                    replaceActionType="0" replaceOuterType="1">
+                                    <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false"
+                                    exp="7000000000000003501" type="0"/>
+                                    </fieldAction>
+                                    </setAction>
                                     <setAction index="5" path="/text/Object/contents/0/sellerId">
                                     <fieldAction type="0">
                                     <fieldAction
